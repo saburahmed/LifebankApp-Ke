@@ -7,7 +7,7 @@
 }
 
 body {
-  background: url("/img/background.svg");
+  background: url("/Lifebank-ke/img/background.svg");
   background-size: cover;
   /* background-repeat: no-repeat; */
 }
@@ -171,6 +171,13 @@ body {
     left: 83%;
   }
 
+  .content {
+    justify-content: center;
+    top: 40vh;
+    justify-content: center;
+    text-align: center;
+  }
+
   .heading {
     font-size: 34px;
     width: 100vw;
@@ -289,6 +296,11 @@ body {
 }
 
 @media only screen and (min-width: 1200px) {
+  /* leave the body attribute the way it is at this viewport*/
+  body {
+    background: url("/Lifebank-ke/img/background.svg");
+  }
+
   .mail .tooltiptext-1 {
     top: 11%;
     left: 85%;
@@ -299,25 +311,25 @@ body {
     left: 90%;
   }
 
+  .content {
+    top: 29vh;
+  }
+
   .heading {
     font-size: 71px;
     width: 100vw;
   }
 
   .message {
-    font-size: 27px;
-    width: 100vw;
+    font-size: 25px;
+    width: 70vw;
     line-height: 40px;
     padding-bottom: 5%;
   }
+}
 
-  .join-btn {
-    margin-right: 10%;
-    font-size: 32px;
-  }
-
-  .log-btn {
-    margin-top: 0;
-    font-size: 32px;
+@media only screen and (min-width: 1441px) {
+  body {
+    background-size: cover !important;
   }
 }
