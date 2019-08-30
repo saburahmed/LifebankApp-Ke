@@ -1,0 +1,325 @@
+* {
+  box-sizing: border-box;
+  font-family: "Comfortaa", cursive;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("/Lifebank-alt/img/background.svg");
+  background-size: cover !important;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.navbar {
+  padding-top: 5%;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-wrapper img {
+  padding-left: 10%;
+}
+
+.social {
+  padding-right: 2.5%;
+  display: flex;
+}
+
+.mail .tooltiptext-1 {
+  visibility: hidden;
+  width: 130px;
+  background-color: #b70303;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 7%;
+  left: 60%;
+  margin-left: -60px;
+}
+
+.mail:hover .tooltiptext-1 {
+  visibility: visible;
+}
+
+.phone {
+  padding-left: 28px;
+}
+
+.phone .tooltiptext-2 {
+  visibility: hidden;
+  width: 130px;
+  background-color: #b70303;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 7%;
+  left: 75%;
+  margin-left: -60px;
+}
+
+.phone:hover .tooltiptext-2 {
+  visibility: visible;
+}
+
+.content-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 30vh;
+}
+
+.connect {
+  font-weight: bolder;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #82090a;
+  padding: 5px 20px 0;
+}
+
+.heading {
+  font-size: 41px;
+  width: 77vw;
+}
+
+.message {
+  font-size: 17px;
+  padding-bottom: 8%;
+  padding-top: 3%;
+  line-height: 100%;
+  font-family: "Lato", sans-serif;
+  width: 80vw;
+}
+
+.btn {
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  border-radius: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+.join-btn {
+  color: #b70303;
+  background-color: white;
+  border: 2px solid white;
+}
+
+.log-btn {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid white;
+  margin-top: 2%;
+}
+
+
+
+/* Media Queries */
+@media only screen and (min-width: 375px) {
+  .mail .tooltiptext-1 {
+    left: 65%;
+  }
+
+  .phone .tooltiptext-2 {
+    left: 78.5%;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .mail .tooltiptext-1 {
+    left: 68.5%;
+  }
+
+  .phone .tooltiptext-2 {
+    left: 80.5%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .mail .tooltiptext-1 {
+    top: 17%;
+    left: 75%;
+  }
+
+  .phone .tooltiptext-2 {
+    top: 17%;
+    left: 83%;
+  }
+
+  .heading {
+    font-size: 34px;
+    width: 100vw;
+  }
+
+  .message {
+    font-size: 13px;
+    width: 75vw;
+  }
+
+  .log-btn {
+    margin-top: 0;
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar {
+    padding-top: 3%;
+  }
+
+  .logo-wrapper img {
+    height: 60px;
+    padding-left: 15%;
+  }
+
+  .social img {
+    height: 25px;
+  }
+
+  .mail .tooltiptext-1 {
+    top: 9%;
+    left: 77%;
+  }
+
+  .phone .tooltiptext-2 {
+    top: 9%;
+    left: 86.5%;
+  }
+
+  .content {
+    justify-content: center;
+    top: 40vh;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .heading {
+    font-size: 44.8px;
+    width: 100vw;
+  }
+
+  .message {
+    font-size: 20px;
+  }
+
+  .join-btn {
+    margin-right: 5%;
+    font-size: 20px;
+  }
+
+  .log-btn {
+    margin-top: 0;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .mail .tooltiptext-1 {
+    top: 11%;
+    left: 80%;
+  }
+
+  .phone .tooltiptext-2 {
+    top: 11%;
+    left: 88%;
+  }
+
+  .heading {
+    font-size: 53px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .mail .tooltiptext-1 {
+    top: 10%;
+    left: 82%;
+  }
+
+  .phone .tooltiptext-2 {
+    top: 10%;
+    left: 89%;
+  }
+
+  .heading {
+    font-size: 60px;
+    width: 100vw;
+  }
+
+  .message {
+    font-size: 27px;
+    width: 100vw;
+    line-height: 40px;
+    padding-bottom: 5%;
+  }
+
+  .join-btn {
+    margin-right: 10%;
+    font-size: 27px;
+  }
+
+  .log-btn {
+    margin-top: 0;
+    font-size: 27px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .mail .tooltiptext-1 {
+    top: 11%;
+    left: 85%;
+  }
+
+  .phone .tooltiptext-2 {
+    top: 11%;
+    left: 90%;
+  }
+
+  .heading {
+    font-size: 82px;
+    width: 100vw;
+  }
+
+  .message {
+    font-size: 32px;
+    width: 100vw;
+    line-height: 40px;
+    padding-bottom: 5%;
+  }
+
+  .join-btn {
+    margin-right: 10%;
+    font-size: 32px;
+  }
+
+  .log-btn {
+    margin-top: 0;
+    font-size: 32px;
+  }
+}
