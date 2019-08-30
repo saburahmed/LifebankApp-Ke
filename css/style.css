@@ -7,7 +7,7 @@
 }
 
 body {
-  background: url("/Lifebank-alt/img/background.svg");
+  background: url("/img/background.svg");
   background-size: cover !important;
   background-repeat: no-repeat;
 }
@@ -138,8 +138,6 @@ body {
   border: 2px solid white;
   margin-top: 2%;
 }
-
-
 
 /* Media Queries */
 @media only screen and (min-width: 375px) {
