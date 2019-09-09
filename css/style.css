@@ -296,7 +296,7 @@ body {
 }
 
 @media only screen and (min-width: 1200px) {
-  /* leave the body attribute the way it is at this viewport*/
+  /* Leave the body attribute the way it is at this viewport. This was included because the bg image has issues with scaling at the 1200px viewport*/
   body {
     background: url("/Lifebank-ke/img/background.svg");
   }
